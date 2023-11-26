@@ -1,0 +1,44 @@
+body{
+    background-image: url("../HTML/images/cemwV1.jpg");
+    background-size:  100vw 100vh;
+    background-repeat: no-repeat;
+   }
+.voice_to_text{
+    text-align: center;
+    background-color: rgb(178, 195, 202);
+    height: 45vh;
+    width: 35%;
+    position: relative;
+    top:23vh ;
+    left: 30vw;
+    border-radius: 20px;
+    color:rgb(41, 11, 70);
+}
+#click_to_convert{
+    position: relative;
+    top: 25px;
+    height: 45px;
+    width: 125px;
+    color:rgb(178, 195, 202) ;
+    background-color: rgb(41,11,70);
+    border: 0;
+    font-size: 16px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer;
+    border: 2px solid black;
+}
+#convert_text{
+    appearance: none;
+    resize: none;
+    height: 25vh;
+    width:425px;
+    border: 0;
+    outline: 0;
+    font-size: 25px;  
+    border-radius: 10px;  
+    border: 2px solid black                                         ;
+    
+}
+::-webkit-scrollbar{
+    display: none;
+}
